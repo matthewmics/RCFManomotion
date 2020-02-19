@@ -220,6 +220,10 @@ public class ManomotionManager : MonoBehaviour
         manomotion_Session.calibration_value = value;
     }
 
+    void OnDisable()
+    {
+        _mCamera.Stop();
+    }
     /// <summary>
     /// Starts the camera for input.
     /// </summary>

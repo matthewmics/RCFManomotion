@@ -18,6 +18,7 @@ public class ButtonFunctions : MonoBehaviour {
 
 		if (Input.GetKeyUp(KeyCode.R))
 		{
+			GameObject.Find("ManomotionManager").SetActive(false);
 			Loading.SetActive(true);
 			SceneManager.LoadScene("MainMenu");
 		}
@@ -26,6 +27,7 @@ public class ButtonFunctions : MonoBehaviour {
 		{
 			if (Input.GetKeyDown(kcode) && kcode.ToString().Equals(rtm))
 			{
+				GameObject.Find("ManomotionManager").SetActive(false);
 				Loading.SetActive(true);
 				SceneManager.LoadScene("MainMenu");
 			}
