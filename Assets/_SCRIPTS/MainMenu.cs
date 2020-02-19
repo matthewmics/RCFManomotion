@@ -39,7 +39,7 @@ public class MainMenu : MonoBehaviour {
 		if (canSelect)
 		{
 			canSelect = false;
-			//y *= -1;
+			y *= -1;
 			int selection = selectedIndex + (int)y;
 			if (y == 1)
 			{

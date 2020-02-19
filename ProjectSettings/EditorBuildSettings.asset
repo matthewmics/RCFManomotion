@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/_SCENES/ChangeOil.unity
     guid: 5c40a275e80ae9647857028cd1c9c19d
   - enabled: 1
+    path: Assets/_SCENES/Headlights.unity
+    guid: 6e1cd6507c6423548919f3579d830384
+  - enabled: 1
+    path: Assets/_SCENES/Tire.unity
+    guid: d0040285e8952af44a490a329bf0cbcf
+  - enabled: 1
     path: Assets/_SCENES/Wrench.unity
     guid: 9fb9afe7e44dbc34280c46d2389f4329
   - enabled: 1
