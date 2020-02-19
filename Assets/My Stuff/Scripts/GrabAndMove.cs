@@ -11,7 +11,11 @@ public class GrabAndMove : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        ToolTip = transform.Find("TOOLTIP").gameObject;
+        Transform t = transform.Find("TOOLTIP");
+        if (t != null)
+        {
+            ToolTip = t.gameObject;
+        }
         ShowToolTip(false);
     }
 
